@@ -155,8 +155,6 @@ public class MainActivity extends AppCompatActivity {
         yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Tournament Removed", Toast.LENGTH_SHORT).show();
-
                 if(dialogMessage.getText().equals(CLEAR_DATA_MESSAGE)){
                     clearData();
                     Toast.makeText(getApplicationContext(), "Data Cleared", Toast.LENGTH_SHORT).show();
